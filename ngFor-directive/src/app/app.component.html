@@ -1,0 +1,15 @@
+<h1>Hello {{title}} </h1> <br><br>
+
+<div *ngFor="let color of colors; index as i">
+  <h2> {{i}} {{color}} </h2>
+</div>
+<br><br>
+
+<div *ngFor="let country of countries; first as f">
+  <h2> {{f}} {{country}} </h2>
+</div>
+<br><br>
+
+<div *ngFor="let vehicle of vehicles; index as i; even as e">
+  <h2> {{i}} {{e}} {{vehicle}} </h2>
+</div>
