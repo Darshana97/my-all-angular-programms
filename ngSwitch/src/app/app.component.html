@@ -1,0 +1,10 @@
+<h1>hello {{title}} </h1> <br><br>
+
+<div [ngSwitch]="color">
+
+  <div *ngSwitchCase="'red'">You Picked red color</div>
+  <div *ngSwitchCase="'blue'">You Picked blue color</div>
+  <div *ngSwitchCase="'green'">You Picked green color</div>
+  <div *ngSwitchDefault>Pick Again</div>
+
+</div>
