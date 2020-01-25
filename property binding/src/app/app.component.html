@@ -1,0 +1,13 @@
+<h1>{{title}}</h1> <br><br>
+
+<h2>
+  Welcome{{name}}
+</h2>
+
+
+<!-- property binding -->
+<input [id]="myId" type="text" value="Darshana">
+<input disabled id={{myId}} type="text" value="Pubudu">
+<input [disabled]="isDisabled" id={{myId}} type="text" value="Bandara">
+
+<app-test></app-test>
